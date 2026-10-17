@@ -2,7 +2,7 @@ import sqlite3
 import os
 
 
-def get_connection():
+def get_connection() -> sqlite3.Connection:
     """Connect to database."""
     db_path = os.getenv("DATABASE_PATH", ":memory:")
     conn = sqlite3.connect(db_path)
