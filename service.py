@@ -55,7 +55,6 @@ def process_transaction(amount, currency, user_status, is_verified, risk_score):
 def run_service():
     # The 'conn' variable was assigned but never used. Removed for quality improvement.
     # If a database connection is needed, it should be explicitly used or closed.
-    # conn = get_connection()
     status = process_transaction(2500, "USD", "VIP", True, 5)
     print(f"Transaction status: {status}")
     return status
