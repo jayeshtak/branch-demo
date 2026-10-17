@@ -1,5 +1,3 @@
-from database import get_connection
-
 # Security Issue: Hardcoded API Secret
 API_SECRET_KEY = "demo_hardcoded_insecure_key_12345"
 
