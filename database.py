@@ -8,7 +8,7 @@ def get_connection() -> sqlite3.Connection:
     conn = sqlite3.connect(db_path)
     return conn
 
-def execute_query(conn, query: str):
+def execute_query(conn: sqlite3.Connection, query: str) -> list[tuple]:
     """Execute raw query."""
     cursor = conn.cursor()
     cursor.execute(query)
