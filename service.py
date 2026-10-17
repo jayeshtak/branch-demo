@@ -1,6 +1,3 @@
-# Security Issue: Hardcoded API Secret
-API_SECRET_KEY = "demo_hardcoded_insecure_key_12345"
-
 # Dead Code: Defined but never called anywhere in project (Vulture)
 def deprecated_legacy_calc(x: int, y: int) -> int:
     """Deprecated legacy calculation function."""
