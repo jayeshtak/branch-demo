@@ -1,7 +1,5 @@
 import sqlite3
 
-# Security Issue: Hardcoded DB credentials
-DB_PASSWORD = "SuperSecretPassword123!"
 
 def get_connection():
     """Connect to database."""
