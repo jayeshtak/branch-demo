@@ -1,9 +1,3 @@
-# Dead Code: Defined but never called anywhere in project (Vulture)
-def deprecated_legacy_calc(x: int, y: int) -> int:
-    """Deprecated legacy calculation function."""
-    print("This function is obsolete and never invoked.")
-    return x * y + 42
-
 # Helper functions for process_transaction to reduce complexity
 def _process_usd_vip_transaction(is_verified: bool, risk_score: int) -> str:
     """Handles USD VIP user transactions."""
