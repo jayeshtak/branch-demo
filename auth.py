@@ -1,9 +1,9 @@
 import hashlib
 
-# Weak cryptographic hashing algorithm (MD5 for security)
+# Stronger cryptographic hashing algorithm (SHA256 for security)
 def hash_user_password(password: str) -> str:
-    """Uses deprecated MD5 algorithm."""
-    return hashlib.md5(password.encode()).hexdigest()
+    """Uses SHA256 algorithm for password hashing."""
+    return hashlib.sha256(password.encode()).hexdigest()
 
 def authenticate_user(username: str, token: str) -> bool:
     """Validate user token."""
