@@ -1,53 +1,17 @@
 {
-  "scan_id": "9e486a27",
+  "scan_id": "90c33a6c",
   "scan_type": "full",
-  "started_at": "2026-10-17 22:25:43",
-  "finished_at": "2026-10-17 22:25:53",
+  "started_at": "2026-10-17 22:30:28",
+  "finished_at": "2026-10-17 22:30:40",
   "repo_path": "C:\\Users\\Jayesh\\AppData\\Local\\Temp\\codebase_agent_repos\\branch-demo",
-  "total_issues": 36,
+  "total_issues": 28,
   "issues": [
     {
       "file": "auth.py",
-      "line": 11,
-      "issue_type": "bug",
-      "severity": "medium",
-      "description": ": local variable 'conn' is assigned to but never used",
-      "language": "python",
-      "extra": {
-        "error_class": "PyflakesError",
-        "col": 5
-      }
-    },
-    {
-      "file": "database.py",
-      "line": 1,
-      "issue_type": "undefined_name",
-      "severity": "medium",
-      "description": ": 'os' imported but unused",
-      "language": "python",
-      "extra": {
-        "error_class": "PyflakesError",
-        "col": 1
-      }
-    },
-    {
-      "file": "service.py",
-      "line": 1,
-      "issue_type": "undefined_name",
-      "severity": "medium",
-      "description": ": 'os' imported but unused",
-      "language": "python",
-      "extra": {
-        "error_class": "PyflakesError",
-        "col": 1
-      }
-    },
-    {
-      "file": "service.py",
       "line": 2,
       "issue_type": "undefined_name",
       "severity": "medium",
-      "description": ": 'sys' imported but unused",
+      "description": ": 'database.get_connection' imported but unused",
       "language": "python",
       "extra": {
         "error_class": "PyflakesError",
@@ -55,20 +19,8 @@
       }
     },
     {
-      "file": "service.py",
-      "line": 3,
-      "issue_type": "undefined_name",
-      "severity": "medium",
-      "description": ": 'math' imported but unused",
-      "language": "python",
-      "extra": {
-        "error_class": "PyflakesError",
-        "col": 1
-      }
-    },
-    {
-      "file": "service.py",
-      "line": 4,
+      "file": "auth.py",
+      "line": 2,
       "issue_type": "undefined_name",
       "severity": "medium",
       "description": ": 'database.execute_query' imported but unused",
@@ -80,14 +32,38 @@
     },
     {
       "file": "service.py",
-      "line": 52,
-      "issue_type": "bug",
+      "line": 1,
+      "issue_type": "undefined_name",
       "severity": "medium",
-      "description": ": local variable 'conn' is assigned to but never used",
+      "description": ": 'database.get_connection' imported but unused",
       "language": "python",
       "extra": {
         "error_class": "PyflakesError",
-        "col": 5
+        "col": 1
+      }
+    },
+    {
+      "file": "auth.py",
+      "line": 2,
+      "issue_type": "dead_code",
+      "severity": "low",
+      "description": "Unused import: 'execute_query'",
+      "language": "python",
+      "extra": {
+        "name": "execute_query",
+        "typ": "import"
+      }
+    },
+    {
+      "file": "auth.py",
+      "line": 2,
+      "issue_type": "dead_code",
+      "severity": "low",
+      "description": "Unused import: 'get_connection'",
+      "language": "python",
+      "extra": {
+        "name": "get_connection",
+        "typ": "import"
       }
     },
     {
@@ -115,44 +91,8 @@
       }
     },
     {
-      "file": "auth.py",
-      "line": 9,
-      "issue_type": "dead_code",
-      "severity": "low",
-      "description": "Unused variable: 'username'",
-      "language": "python",
-      "extra": {
-        "name": "username",
-        "typ": "variable"
-      }
-    },
-    {
-      "file": "auth.py",
-      "line": 11,
-      "issue_type": "dead_code",
-      "severity": "low",
-      "description": "Unused variable: 'conn'",
-      "language": "python",
-      "extra": {
-        "name": "conn",
-        "typ": "variable"
-      }
-    },
-    {
       "file": "database.py",
-      "line": 1,
-      "issue_type": "dead_code",
-      "severity": "low",
-      "description": "Unused import: 'os'",
-      "language": "python",
-      "extra": {
-        "name": "os",
-        "typ": "import"
-      }
-    },
-    {
-      "file": "database.py",
-      "line": 5,
+      "line": 4,
       "issue_type": "dead_code",
       "severity": "low",
       "description": "Unused variable: 'DB_HOST'",
@@ -164,7 +104,7 @@
     },
     {
       "file": "database.py",
-      "line": 6,
+      "line": 5,
       "issue_type": "dead_code",
       "severity": "low",
       "description": "Unused variable: 'DB_USER'",
@@ -176,7 +116,7 @@
     },
     {
       "file": "database.py",
-      "line": 7,
+      "line": 6,
       "issue_type": "dead_code",
       "severity": "low",
       "description": "Unused variable: 'DB_PASSWORD'",
@@ -188,7 +128,7 @@
     },
     {
       "file": "database.py",
-      "line": 9,
+      "line": 8,
       "issue_type": "dead_code",
       "severity": "low",
       "description": "Unused function: 'get_connection'",
@@ -200,7 +140,7 @@
     },
     {
       "file": "database.py",
-      "line": 14,
+      "line": 13,
       "issue_type": "dead_code",
       "severity": "low",
       "description": "Unused function: 'execute_query'",
@@ -212,7 +152,7 @@
     },
     {
       "file": "service.py",
-      "line": 21,
+      "line": 18,
       "issue_type": "complexity",
       "severity": "medium",
       "description": "'process_transaction' has cyclomatic complexity 12 (high, threshold=10)",
@@ -227,40 +167,16 @@
       "line": 1,
       "issue_type": "dead_code",
       "severity": "low",
-      "description": "Unused import: 'os'",
+      "description": "Unused import: 'get_connection'",
       "language": "python",
       "extra": {
-        "name": "os",
-        "typ": "import"
-      }
-    },
-    {
-      "file": "service.py",
-      "line": 3,
-      "issue_type": "dead_code",
-      "severity": "low",
-      "description": "Unused import: 'math'",
-      "language": "python",
-      "extra": {
-        "name": "math",
+        "name": "get_connection",
         "typ": "import"
       }
     },
     {
       "file": "service.py",
       "line": 4,
-      "issue_type": "dead_code",
-      "severity": "low",
-      "description": "Unused import: 'execute_query'",
-      "language": "python",
-      "extra": {
-        "name": "execute_query",
-        "typ": "import"
-      }
-    },
-    {
-      "file": "service.py",
-      "line": 7,
       "issue_type": "dead_code",
       "severity": "low",
       "description": "Unused variable: 'API_SECRET_KEY'",
@@ -272,7 +188,7 @@
     },
     {
       "file": "service.py",
-      "line": 10,
+      "line": 7,
       "issue_type": "dead_code",
       "severity": "low",
       "description": "Unused function: 'deprecated_legacy_calc'",
@@ -284,7 +200,7 @@
     },
     {
       "file": "service.py",
-      "line": 16,
+      "line": 13,
       "issue_type": "dead_code",
       "severity": "low",
       "description": "Unused function: 'calculate_dynamic_expression'",
@@ -292,18 +208,6 @@
       "extra": {
         "name": "calculate_dynamic_expression",
         "typ": "function"
-      }
-    },
-    {
-      "file": "service.py",
-      "line": 52,
-      "issue_type": "dead_code",
-      "severity": "low",
-      "description": "Unused variable: 'conn'",
-      "language": "python",
-      "extra": {
-        "name": "conn",
-        "typ": "variable"
       }
     },
     {
@@ -321,10 +225,10 @@
     },
     {
       "file": "auth.py",
-      "line": 12,
+      "line": 13,
       "issue_type": "security",
       "severity": "low",
-      "description": "[B105] Possible hardcoded password: 'master_token_bypass'",
+      "description": "[B105] Possible hardcoded password: 'master_token_b'",
       "language": "python",
       "extra": {
         "test_id": "B105",
@@ -334,7 +238,7 @@
     },
     {
       "file": "database.py",
-      "line": 7,
+      "line": 6,
       "issue_type": "security",
       "severity": "low",
       "description": "[B105] Possible hardcoded password: 'SuperSecretPassword123!'",
@@ -347,7 +251,7 @@
     },
     {
       "file": "service.py",
-      "line": 7,
+      "line": 4,
       "issue_type": "security",
       "severity": "low",
       "description": "[B105] Possible hardcoded password: 'demo_hardcoded_insecure_key_12345'",
@@ -360,7 +264,7 @@
     },
     {
       "file": "service.py",
-      "line": 18,
+      "line": 15,
       "issue_type": "security",
       "severity": "medium",
       "description": "[B307] Use of possibly insecure function - consider using safer ast.literal_eval.",
@@ -373,7 +277,7 @@
     },
     {
       "file": "database.py",
-      "line": 7,
+      "line": 6,
       "issue_type": "security",
       "severity": "high",
       "description": "Hardcoded password detected \u2014 move to environment variable",
@@ -384,7 +288,7 @@
     },
     {
       "file": "database.py",
-      "line": 9,
+      "line": 8,
       "issue_type": "missing_type_hints",
       "severity": "low",
       "description": "Function 'get_connection' missing type hints: return type",
@@ -396,7 +300,7 @@
     },
     {
       "file": "database.py",
-      "line": 14,
+      "line": 13,
       "issue_type": "missing_type_hints",
       "severity": "low",
       "description": "Function 'execute_query' missing type hints: args ['conn'], return type",
@@ -410,7 +314,7 @@
     },
     {
       "file": "service.py",
-      "line": 16,
+      "line": 13,
       "issue_type": "missing_type_hints",
       "severity": "low",
       "description": "Function 'calculate_dynamic_expression' missing type hints: return type",
@@ -422,7 +326,7 @@
     },
     {
       "file": "service.py",
-      "line": 21,
+      "line": 18,
       "issue_type": "missing_type_hints",
       "severity": "low",
       "description": "Function 'process_transaction' missing type hints: args ['amount', 'currency', 'user_status', 'is_verified', 'risk_score'], return type",
@@ -440,7 +344,7 @@
     },
     {
       "file": "service.py",
-      "line": 51,
+      "line": 48,
       "issue_type": "missing_type_hints",
       "severity": "low",
       "description": "Function 'run_service' missing type hints: return type",
@@ -482,6 +386,6 @@
   },
   "meta": {
     "scan_type": "full",
-    "revision": "2e86e13635d7"
+    "revision": "ad75d3a95223"
   }
 }
