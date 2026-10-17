@@ -1,4 +1,3 @@
-import os
 import sys
 import math  # Unused import (triggers Linter)
 from database import get_connection
