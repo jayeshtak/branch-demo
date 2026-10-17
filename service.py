@@ -1,7 +1,7 @@
 import os
 import sys
 import math  # Unused import (triggers Linter)
-from database import get_connection, execute_query
+from database import get_connection
 
 # Security Issue: Hardcoded API Secret
 API_SECRET_KEY = "demo_hardcoded_insecure_key_12345"
