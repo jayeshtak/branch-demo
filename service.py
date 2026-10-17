@@ -1,4 +1,3 @@
-import math  # Unused import (triggers Linter)
 from database import get_connection
 
 # Security Issue: Hardcoded API Secret
