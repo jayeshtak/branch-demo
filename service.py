@@ -51,7 +51,7 @@ def _process_small_transaction(risk_score: int) -> str:
         return "APPROVED_SMALL"
 
 # High Cyclomatic Complexity Hotspot (Radon Complexity > 10)
-def process_transaction(amount, currency, user_status, is_verified, risk_score):
+def process_transaction(amount: float, currency: str, user_status: str, is_verified: bool, risk_score: int) -> str:
     """Process high-risk multi-tier financial transaction."""
     if amount > 1000:
         return _process_large_transaction(currency, user_status, is_verified, risk_score)
