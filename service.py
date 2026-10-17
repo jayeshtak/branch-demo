@@ -1,5 +1,3 @@
-from database import get_connection
-
 # Dead Code: Defined but never called anywhere in project (Vulture)
 def deprecated_legacy_calc(x: int, y: int) -> int:
     """Deprecated legacy calculation function."""
