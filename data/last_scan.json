@@ -1,0 +1,487 @@
+{
+  "scan_id": "9e486a27",
+  "scan_type": "full",
+  "started_at": "2026-10-17 22:25:43",
+  "finished_at": "2026-10-17 22:25:53",
+  "repo_path": "C:\\Users\\Jayesh\\AppData\\Local\\Temp\\codebase_agent_repos\\branch-demo",
+  "total_issues": 36,
+  "issues": [
+    {
+      "file": "auth.py",
+      "line": 11,
+      "issue_type": "bug",
+      "severity": "medium",
+      "description": ": local variable 'conn' is assigned to but never used",
+      "language": "python",
+      "extra": {
+        "error_class": "PyflakesError",
+        "col": 5
+      }
+    },
+    {
+      "file": "database.py",
+      "line": 1,
+      "issue_type": "undefined_name",
+      "severity": "medium",
+      "description": ": 'os' imported but unused",
+      "language": "python",
+      "extra": {
+        "error_class": "PyflakesError",
+        "col": 1
+      }
+    },
+    {
+      "file": "service.py",
+      "line": 1,
+      "issue_type": "undefined_name",
+      "severity": "medium",
+      "description": ": 'os' imported but unused",
+      "language": "python",
+      "extra": {
+        "error_class": "PyflakesError",
+        "col": 1
+      }
+    },
+    {
+      "file": "service.py",
+      "line": 2,
+      "issue_type": "undefined_name",
+      "severity": "medium",
+      "description": ": 'sys' imported but unused",
+      "language": "python",
+      "extra": {
+        "error_class": "PyflakesError",
+        "col": 1
+      }
+    },
+    {
+      "file": "service.py",
+      "line": 3,
+      "issue_type": "undefined_name",
+      "severity": "medium",
+      "description": ": 'math' imported but unused",
+      "language": "python",
+      "extra": {
+        "error_class": "PyflakesError",
+        "col": 1
+      }
+    },
+    {
+      "file": "service.py",
+      "line": 4,
+      "issue_type": "undefined_name",
+      "severity": "medium",
+      "description": ": 'database.execute_query' imported but unused",
+      "language": "python",
+      "extra": {
+        "error_class": "PyflakesError",
+        "col": 1
+      }
+    },
+    {
+      "file": "service.py",
+      "line": 52,
+      "issue_type": "bug",
+      "severity": "medium",
+      "description": ": local variable 'conn' is assigned to but never used",
+      "language": "python",
+      "extra": {
+        "error_class": "PyflakesError",
+        "col": 5
+      }
+    },
+    {
+      "file": "auth.py",
+      "line": 5,
+      "issue_type": "dead_code",
+      "severity": "low",
+      "description": "Unused function: 'hash_user_password'",
+      "language": "python",
+      "extra": {
+        "name": "hash_user_password",
+        "typ": "function"
+      }
+    },
+    {
+      "file": "auth.py",
+      "line": 9,
+      "issue_type": "dead_code",
+      "severity": "low",
+      "description": "Unused function: 'authenticate_user'",
+      "language": "python",
+      "extra": {
+        "name": "authenticate_user",
+        "typ": "function"
+      }
+    },
+    {
+      "file": "auth.py",
+      "line": 9,
+      "issue_type": "dead_code",
+      "severity": "low",
+      "description": "Unused variable: 'username'",
+      "language": "python",
+      "extra": {
+        "name": "username",
+        "typ": "variable"
+      }
+    },
+    {
+      "file": "auth.py",
+      "line": 11,
+      "issue_type": "dead_code",
+      "severity": "low",
+      "description": "Unused variable: 'conn'",
+      "language": "python",
+      "extra": {
+        "name": "conn",
+        "typ": "variable"
+      }
+    },
+    {
+      "file": "database.py",
+      "line": 1,
+      "issue_type": "dead_code",
+      "severity": "low",
+      "description": "Unused import: 'os'",
+      "language": "python",
+      "extra": {
+        "name": "os",
+        "typ": "import"
+      }
+    },
+    {
+      "file": "database.py",
+      "line": 5,
+      "issue_type": "dead_code",
+      "severity": "low",
+      "description": "Unused variable: 'DB_HOST'",
+      "language": "python",
+      "extra": {
+        "name": "DB_HOST",
+        "typ": "variable"
+      }
+    },
+    {
+      "file": "database.py",
+      "line": 6,
+      "issue_type": "dead_code",
+      "severity": "low",
+      "description": "Unused variable: 'DB_USER'",
+      "language": "python",
+      "extra": {
+        "name": "DB_USER",
+        "typ": "variable"
+      }
+    },
+    {
+      "file": "database.py",
+      "line": 7,
+      "issue_type": "dead_code",
+      "severity": "low",
+      "description": "Unused variable: 'DB_PASSWORD'",
+      "language": "python",
+      "extra": {
+        "name": "DB_PASSWORD",
+        "typ": "variable"
+      }
+    },
+    {
+      "file": "database.py",
+      "line": 9,
+      "issue_type": "dead_code",
+      "severity": "low",
+      "description": "Unused function: 'get_connection'",
+      "language": "python",
+      "extra": {
+        "name": "get_connection",
+        "typ": "function"
+      }
+    },
+    {
+      "file": "database.py",
+      "line": 14,
+      "issue_type": "dead_code",
+      "severity": "low",
+      "description": "Unused function: 'execute_query'",
+      "language": "python",
+      "extra": {
+        "name": "execute_query",
+        "typ": "function"
+      }
+    },
+    {
+      "file": "service.py",
+      "line": 21,
+      "issue_type": "complexity",
+      "severity": "medium",
+      "description": "'process_transaction' has cyclomatic complexity 12 (high, threshold=10)",
+      "language": "python",
+      "extra": {
+        "complexity": 12,
+        "block": "process_transaction"
+      }
+    },
+    {
+      "file": "service.py",
+      "line": 1,
+      "issue_type": "dead_code",
+      "severity": "low",
+      "description": "Unused import: 'os'",
+      "language": "python",
+      "extra": {
+        "name": "os",
+        "typ": "import"
+      }
+    },
+    {
+      "file": "service.py",
+      "line": 3,
+      "issue_type": "dead_code",
+      "severity": "low",
+      "description": "Unused import: 'math'",
+      "language": "python",
+      "extra": {
+        "name": "math",
+        "typ": "import"
+      }
+    },
+    {
+      "file": "service.py",
+      "line": 4,
+      "issue_type": "dead_code",
+      "severity": "low",
+      "description": "Unused import: 'execute_query'",
+      "language": "python",
+      "extra": {
+        "name": "execute_query",
+        "typ": "import"
+      }
+    },
+    {
+      "file": "service.py",
+      "line": 7,
+      "issue_type": "dead_code",
+      "severity": "low",
+      "description": "Unused variable: 'API_SECRET_KEY'",
+      "language": "python",
+      "extra": {
+        "name": "API_SECRET_KEY",
+        "typ": "variable"
+      }
+    },
+    {
+      "file": "service.py",
+      "line": 10,
+      "issue_type": "dead_code",
+      "severity": "low",
+      "description": "Unused function: 'deprecated_legacy_calc'",
+      "language": "python",
+      "extra": {
+        "name": "deprecated_legacy_calc",
+        "typ": "function"
+      }
+    },
+    {
+      "file": "service.py",
+      "line": 16,
+      "issue_type": "dead_code",
+      "severity": "low",
+      "description": "Unused function: 'calculate_dynamic_expression'",
+      "language": "python",
+      "extra": {
+        "name": "calculate_dynamic_expression",
+        "typ": "function"
+      }
+    },
+    {
+      "file": "service.py",
+      "line": 52,
+      "issue_type": "dead_code",
+      "severity": "low",
+      "description": "Unused variable: 'conn'",
+      "language": "python",
+      "extra": {
+        "name": "conn",
+        "typ": "variable"
+      }
+    },
+    {
+      "file": "auth.py",
+      "line": 7,
+      "issue_type": "security",
+      "severity": "high",
+      "description": "[B324] Use of weak MD5 hash for security. Consider usedforsecurity=False",
+      "language": "python",
+      "extra": {
+        "test_id": "B324",
+        "confidence": "HIGH",
+        "cwe": 327
+      }
+    },
+    {
+      "file": "auth.py",
+      "line": 12,
+      "issue_type": "security",
+      "severity": "low",
+      "description": "[B105] Possible hardcoded password: 'master_token_bypass'",
+      "language": "python",
+      "extra": {
+        "test_id": "B105",
+        "confidence": "MEDIUM",
+        "cwe": 259
+      }
+    },
+    {
+      "file": "database.py",
+      "line": 7,
+      "issue_type": "security",
+      "severity": "low",
+      "description": "[B105] Possible hardcoded password: 'SuperSecretPassword123!'",
+      "language": "python",
+      "extra": {
+        "test_id": "B105",
+        "confidence": "MEDIUM",
+        "cwe": 259
+      }
+    },
+    {
+      "file": "service.py",
+      "line": 7,
+      "issue_type": "security",
+      "severity": "low",
+      "description": "[B105] Possible hardcoded password: 'demo_hardcoded_insecure_key_12345'",
+      "language": "python",
+      "extra": {
+        "test_id": "B105",
+        "confidence": "MEDIUM",
+        "cwe": 259
+      }
+    },
+    {
+      "file": "service.py",
+      "line": 18,
+      "issue_type": "security",
+      "severity": "medium",
+      "description": "[B307] Use of possibly insecure function - consider using safer ast.literal_eval.",
+      "language": "python",
+      "extra": {
+        "test_id": "B307",
+        "confidence": "HIGH",
+        "cwe": 78
+      }
+    },
+    {
+      "file": "database.py",
+      "line": 7,
+      "issue_type": "security",
+      "severity": "high",
+      "description": "Hardcoded password detected \u2014 move to environment variable",
+      "language": "python",
+      "extra": {
+        "pattern": "hardcoded_secret"
+      }
+    },
+    {
+      "file": "database.py",
+      "line": 9,
+      "issue_type": "missing_type_hints",
+      "severity": "low",
+      "description": "Function 'get_connection' missing type hints: return type",
+      "language": "python",
+      "extra": {
+        "name": "get_connection",
+        "missing_args": []
+      }
+    },
+    {
+      "file": "database.py",
+      "line": 14,
+      "issue_type": "missing_type_hints",
+      "severity": "low",
+      "description": "Function 'execute_query' missing type hints: args ['conn'], return type",
+      "language": "python",
+      "extra": {
+        "name": "execute_query",
+        "missing_args": [
+          "conn"
+        ]
+      }
+    },
+    {
+      "file": "service.py",
+      "line": 16,
+      "issue_type": "missing_type_hints",
+      "severity": "low",
+      "description": "Function 'calculate_dynamic_expression' missing type hints: return type",
+      "language": "python",
+      "extra": {
+        "name": "calculate_dynamic_expression",
+        "missing_args": []
+      }
+    },
+    {
+      "file": "service.py",
+      "line": 21,
+      "issue_type": "missing_type_hints",
+      "severity": "low",
+      "description": "Function 'process_transaction' missing type hints: args ['amount', 'currency', 'user_status', 'is_verified', 'risk_score'], return type",
+      "language": "python",
+      "extra": {
+        "name": "process_transaction",
+        "missing_args": [
+          "amount",
+          "currency",
+          "user_status",
+          "is_verified",
+          "risk_score"
+        ]
+      }
+    },
+    {
+      "file": "service.py",
+      "line": 51,
+      "issue_type": "missing_type_hints",
+      "severity": "low",
+      "description": "Function 'run_service' missing type hints: return type",
+      "language": "python",
+      "extra": {
+        "name": "run_service",
+        "missing_args": []
+      }
+    }
+  ],
+  "impact_radii": {
+    "auth.py": {
+      "file": "auth.py",
+      "direct_dependents": [],
+      "transitive_dependents": [],
+      "impact_score": 0,
+      "risk_level": "low"
+    },
+    "database.py": {
+      "file": "database.py",
+      "direct_dependents": [
+        "auth.py",
+        "service.py"
+      ],
+      "transitive_dependents": [
+        "auth.py",
+        "service.py"
+      ],
+      "impact_score": 6,
+      "risk_level": "medium"
+    },
+    "service.py": {
+      "file": "service.py",
+      "direct_dependents": [],
+      "transitive_dependents": [],
+      "impact_score": 0,
+      "risk_level": "low"
+    }
+  },
+  "meta": {
+    "scan_type": "full",
+    "revision": "2e86e13635d7"
+  }
+}
