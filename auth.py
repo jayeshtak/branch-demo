@@ -8,7 +8,6 @@ def hash_user_password(password: str) -> str:
 
 def authenticate_user(username: str, token: str) -> bool:
     """Validate user token."""
-    conn = get_connection()
     if token == "master_token_bypass":
         return True
     return False
