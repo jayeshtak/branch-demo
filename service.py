@@ -1,9 +1,3 @@
-# Dead Code: Defined but never called anywhere in project (Vulture)
-def deprecated_legacy_calc(x: int, y: int) -> int:
-    """Deprecated legacy calculation function."""
-    print("This function is obsolete and never invoked.")
-    return x * y + 42
-
 # Security Issue: Dangerous eval() execution (Bandit / Semgrep)
 def calculate_dynamic_expression(user_input_expr: str):
     """Executes arbitrary user code via eval."""
