@@ -1,8 +1,3 @@
-# Security Issue: Dangerous eval() execution (Bandit / Semgrep)
-def calculate_dynamic_expression(user_input_expr: str):
-    """Executes arbitrary user code via eval."""
-    return eval(user_input_expr)
-
 # Helper functions for process_transaction to reduce complexity
 def _process_usd_vip_transaction(is_verified: bool, risk_score: int) -> str:
     """Handles USD VIP user transactions."""
