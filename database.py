@@ -1,9 +1,11 @@
 import sqlite3
+import os
 
 
 def get_connection():
     """Connect to database."""
-    conn = sqlite3.connect(":memory:")
+    db_path = os.getenv("DATABASE_PATH", ":memory:")
+    conn = sqlite3.connect(db_path)
     return conn
 
 def execute_query(conn, query: str):
