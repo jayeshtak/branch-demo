@@ -58,7 +58,7 @@ def process_transaction(amount: float, currency: str, user_status: str, is_verif
     else:
         return _process_small_transaction(risk_score)
 
-def run_service():
+def run_service() -> str:
     # The 'conn' variable was assigned but never used. Removed for quality improvement.
     # If a database connection is needed, it should be explicitly used or closed.
     status = process_transaction(2500, "USD", "VIP", True, 5)
